@@ -1,0 +1,47 @@
+/* DashBoard style */
+
+/* icons */
+.FileText {
+    color: blue;
+    background-color: rgba(124, 213, 213, 0.536);
+}
+
+.CheckCircle {
+    color: green;
+    background-color: rgba(92, 232, 113, 0.442);
+}
+
+.Clock {
+    color: orangered;
+    background-color: rgba(241, 161, 131, 0.419);
+}
+
+.BarChart3 {
+    color: blueviolet;
+    background-color: rgba(184, 123, 241, 0.423);
+}
+
+
+@media (min-width : 992px) {
+    .DashBoard {
+        padding-left: 80px !important;
+    }
+}
+
+
+
+/* Assigned Project page */
+
+@media (min-width : 992px) {
+    .AssignedProject {
+        padding-left: 250px !important;
+    }
+}
+
+/* RubricPreview page */
+
+@media (min-width : 992px) {
+    .RubricPreview {
+        margin-left: 250px !important;
+    }
+}

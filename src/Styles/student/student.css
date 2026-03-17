@@ -1,0 +1,76 @@
+/* DashBoard style */
+
+/* body color */
+.DashBoard {
+    background-color: rgba(239, 239, 236, 0.214);
+}
+
+/* status badge */
+.badge {
+    background-color: rgba(159, 238, 128, 0.449);
+}
+
+/* icons */
+.users {
+    color: blue;
+    background-color: rgba(124, 213, 213, 0.536);
+}
+
+.Upload {
+    color: green;
+    background-color: rgba(92, 232, 113, 0.442);
+}
+
+.Clock {
+    color: orangered;
+    background-color: rgba(241, 161, 131, 0.419);
+}
+
+.Award {
+    color: blueviolet;
+    background-color: rgba(184, 123, 241, 0.423);
+}
+
+@media (min-width : 992px) {
+    .DashBoard {
+        margin-left: 195px !important;
+    }
+}
+
+
+
+/* Myteam style */
+
+.TeamRegistration {
+    background-color: #f5f7fa;
+    min-height: 100vh;
+}
+
+@media (min-width : 992px) {
+    .TeamRegistration {
+        margin-left: 240px !important;
+    }
+}
+
+
+/* ProjectSubmission */
+
+.ProjectSubmission {
+    min-height: 100vh;
+}
+
+.upload-box:hover {
+    border-color: #0d6efd !important;
+    background: #eff6ff !important;
+}
+
+.HelpCard{
+    background: linear-gradient(135deg,#eff6ff,#f3e8ff);
+    border: 1px solid #bfdbfe;
+}
+
+@media (min-width : 992px) {
+    .ProjectSubmission {
+        margin-left: 225px !important;
+    }
+}

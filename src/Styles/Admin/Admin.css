@@ -1,0 +1,119 @@
+@media (min-width : 992px) {
+    .padding {
+        padding-left: 270px !important;
+    }
+}
+
+
+/* DashBoard style */
+
+/* icons */
+.Users {
+    color: blue;
+    background-color: rgba(124, 213, 213, 0.536);
+}
+
+.FileText {
+    color: green;
+    background-color: rgba(92, 232, 113, 0.442);
+}
+
+.Clock {
+    color: orangered;
+    background-color: rgba(241, 161, 131, 0.419);
+}
+
+.GraduationCap {
+    color: blueviolet;
+    background-color: rgba(184, 123, 241, 0.423);
+}
+
+@media (min-width : 992px) {
+    .DashBoard {
+        padding-left: 70px !important;
+    }
+}
+
+@media (min-width : 490px) {
+
+    .chart-box {
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .chart-box canvas {
+        flex: 1;
+        height: 300px !important;
+        align-self: center;
+    }
+
+}
+
+.Announcements {
+    height: 372px;
+    overflow: auto;
+}
+
+/* Rubrics page */
+
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: scale(1.4);
+    }
+}
+
+
+/* certificate page */
+
+.certificate-preview {
+    height: 650px;
+    border: 8px double #2563eb;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #eff6ff, #ffffff, #f3e8ff);
+    padding: 40px;
+
+}
+
+.rank-box {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+
+
+/* JudgeManagement */
+
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+}
+
+.modal-card {
+    background: white;
+    width: 420px;
+    border-radius: 10px;
+    padding: 24px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}

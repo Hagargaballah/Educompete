@@ -1,19 +1,55 @@
-import LoginBtn from './Login_Btn.jsx'
-import Signin_Btn from './signin_Btn.jsx'
+import SigninBtn from './SigninBtn.jsx'
+import LoginBtn from './LoginBtn.jsx'
+import Logo from './../layout/logo.jsx'
 
 
 export default function Nav() {
     return (
-        <nav className="bg-white shadow-lg py-3 px-5 d-flex justify-content-between align-items-center">
-            <div className="d-flex align-items-center gap-2">
-                <a href="#">
-                    <img className="img-fluid w-75" src="src\assets\images\Logo.png" alt="logo" />
+        <nav
+            class="navbar navbar-expand-lg navbar-light bg-light position-fixed w-100 fixed-top"
+        >
+            <div class="container align-items-center">
+                <a class="navbar-brand d-flex align-items-center gap-3" href="#">
+                    <Logo />
+                    <h5 className='fw-bold mt-2'>EduCompete</h5>
                 </a>
-                <h1 className="mt-3 fw-bold fs-4">EduCompete</h1>
-            </div>
-            <div className='gap-4 align-items-center mt-3 d-none d-sm-flex'>
-                <LoginBtn/>
-                <Signin_Btn/>
+                <button
+                    class="navbar-toggler d-lg-none"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId"
+                    aria-controls="collapsibleNavId"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav m-auto mt-2 mt-lg-0 gap-4">
+                        <li class="nav-item">
+                            <a class="nav-link fw-semibold active" href="#home" aria-current="page"
+                            >Home
+                                <span class="visually-hidden">(current)</span></a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-semibold" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-semibold" href="#how-it-works">How It Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-semibold" href="#timeline">Timeline</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-semibold" href="#rules">Rules</a>
+                        </li>
+                    </ul>
+                    <div className='mt-3 mt-lg-0 d-flex flex-column flex-lg-row gap-4'>
+                        <LoginBtn />
+                        <SigninBtn />
+                    </div>
+                </div>
             </div>
         </nav>
     )
