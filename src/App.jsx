@@ -1,6 +1,6 @@
 import './App.css'
 import { Route, Routes } from 'react-router-dom';
-import Landing from './Pages/Landing Page'; // landing page
+import Landing from './Pages/landingPage'; // landing page
 import Login from './Pages/Registration/login'; // login page
 import Signin from './Pages/Registration/signin'; // singin page
 // student

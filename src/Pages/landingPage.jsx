@@ -1,9 +1,9 @@
-import Nav from './../components/Landing page components/navbar'
-import HeroSection from '../components/Landing page components/hero'
-import AboutSection from '../components/Landing page components/aboutSection'
-import HowItWorksSection from '../components/Landing page components/HowItWorks'
-import TimelineSection from '../components/Landing page components/Timeline'
-import RulesSection from '../components/Landing page components/Rules'
+import Nav from './../components/LandingPageCmponents/navbar'
+import HeroSection from '../components/LandingPageCmponents/hero'
+import AboutSection from '../components/LandingPageCmponents/aboutSection'
+import HowItWorksSection from '../components/LandingPageCmponents/HowItWorks'
+import TimelineSection from '../components/LandingPageCmponents/Timeline'
+import RulesSection from '../components/LandingPageCmponents/Rules'
 import { useNavigate } from "react-router-dom";
 
 export default function Landing_Page() {

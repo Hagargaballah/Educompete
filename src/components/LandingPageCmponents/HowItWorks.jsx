@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import {steps} from '../../data/mockData'
-import './../../Styles/Landing Page style/HowItWorks.css'
+import './../../Styles/LandingPageStyle/HowItWorks.css'
 
 
 

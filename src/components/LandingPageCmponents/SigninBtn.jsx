@@ -1,4 +1,4 @@
-import './../../Styles/Landing Page style/Login_Btn.css'
+import './../../Styles/LandingPageStyle/loginBtn.css'
 import { Link } from 'react-router-dom'
 
 export default function SigninBtn() {

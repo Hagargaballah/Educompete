@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import './../../Styles/Landing Page style/aboutSection.css'
+import './../../Styles/LandingPageStyle/aboutSection.css'
 import {goals} from '../../data/mockData'
 
 
